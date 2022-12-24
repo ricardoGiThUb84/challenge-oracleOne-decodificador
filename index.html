@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="estilo.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <script src="./script.js" defer type="module"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img
+          class="logo-alura"
+          src="./imagen/alura.svg"
+          alt="teste"
+        />
+      </header>
+
+      <main class="main">
+        <h3 class="titulo">Digite seu texto</h3>
+
+        <textarea
+          class="campoTexto"
+          name="campo"
+          id=""
+          cols="10"
+          rows="20"
+          pattern="[a-z]"
+        ></textarea>
+
+        <small class="info">Apenas letras minusculas</small>
+
+        <button class="criptografar">Criptografar</button>
+        <button class="descriptografar">Descriptografar</button>
+      </main>
+
+      <aside class="aside">
+        <textarea
+          class="campoTextoLateral"
+          name="campo"
+          id=""
+          cols="10"
+          rows="20"
+          pattern="[a-z]"
+          readonly="true"
+        ></textarea>
+
+        <button class="copiar">Copiar</button>
+
+        <div class="semTexto">
+          <img
+            class="img-semTexto"
+            src="./imagen/nao_há_texto.svg"
+            alt=""
+          />
+          <p>Não há nada por aqui</p>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
